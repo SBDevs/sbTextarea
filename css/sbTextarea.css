@@ -1,0 +1,11 @@
+.sb-textarea .form-control.bg-danger{
+  background-color: #f2dede !important;
+}
+
+.text-blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
